@@ -1,0 +1,27 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(#16161d, #000127);
+    font-family: monospace;
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-transform: capitalize;
+    line-height: 1;
+    transform: translate3d(-50%, -50%, 0);
+    transition: transform 1s ease-out;
+}
